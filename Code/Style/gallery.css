@@ -1,0 +1,25 @@
+.row1 {
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+}
+
+.column {
+    text-align: center;
+}
+
+.column img {
+    justify-content: space-evenly;
+    vertical-align: middle;
+    width: 300px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,30 @@
+
+.footer {
+    background-color: #f8e8e8;
+    padding: 50px 0;
+    height: 150px;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    background-color: #f8e8e8;
+    margin: auto;
+    height: 150px;
+}
+
+h4 {
+    font-size: 18px;
+    color: #525f9b;
+    margin-left: 1.8cm;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
